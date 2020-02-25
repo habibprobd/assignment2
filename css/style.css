@@ -2,3 +2,41 @@ body{
     margin: 0;
     font-family: 'Lato';
 }
+.container{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.carousel-indicator li{
+    background-color:lightblue;
+}
+.carousel-indicator .active{
+    background-color: orange;
+}
+
+.header-bg{
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.container a{
+    text-decoration: none;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightcyan;
+}
+.card p{
+    text-align: center;
+    font-size: smaller;
+    color:lightslategrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#laptop h5{
+    font-size:x-large;
+    
+}
