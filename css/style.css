@@ -3,7 +3,7 @@ body{
     font-family: 'Lato';
 }
 .container{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
@@ -24,8 +24,9 @@ body{
 }
 .card{
     border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightcyan;
+    border-radius: 15px 10px;
+    box-shadow: 5px 5px 10px rgb(212, 203, 160);
+
 }
 .card p{
     text-align: center;
@@ -35,8 +36,28 @@ body{
 .card-footer{
     background-color: white;
     border-top: none;
+    text-align: center;
+}
+.card-body img{
+    padding-left: 40px;
+
 }
 #laptop h5{
     font-size:x-large;
     
 }
+.container h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.card-position-box{
+    max-width: 288px;
+}
+.midd{
+    text-align: center;
+}
+footer{
+    text-align: center;
+
+}
+
